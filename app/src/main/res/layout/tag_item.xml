@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="tag"
+            type="llc.arma.checklisttag.data.Tag" />
+
+        <variable
+            name="actionsListener"
+            type="llc.arma.checklisttag.ui.tag.TagActionsListener" />
+
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:typeColor="@{tag.tagType}">
+
+        <com.google.android.material.card.MaterialCardView
+            android:elevation="0dp"
+            app:cardElevation="0dp"
+            android:onClick="@{() -> actionsListener.onTagClicked(tag)}"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?selectableItemBackground"
+            android:layout_marginStart="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:padding="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="@{tag.tagName}"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/TextAppearance.MaterialComponents.Subtitle1"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:text="@string/tag_status_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/TextAppearance.MaterialComponents.Body2"/>
+
+                    <TextView
+                        android:layout_marginStart="8dp"
+                        app:type="@{tag.tagType}"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/TextAppearance.MaterialComponents.Body2"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:text="@string/sync_status_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/TextAppearance.MaterialComponents.Body2"/>
+
+                    <TextView
+                        android:layout_marginStart="8dp"
+                        app:sync="@{tag.sync}"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/TextAppearance.MaterialComponents.Body2"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</layout>

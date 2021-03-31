@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View"/>
+
+        <variable
+            name="model"
+            type="llc.arma.checklisttag.ui.scan.ScanViewModel" />
+
+    </data>
+
+    <LinearLayout
+        android:minWidth="220dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:padding="16dp"
+            android:layout_gravity="center"
+            style="?textAppearanceHeadline6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ScanWaiting"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_margin="32dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_fileName="scan-nfc"/>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc" />
+
+        <TextView
+            android:onClick="@{() -> model.onCloseClicked()}"
+            android:id="@+id/addButton"
+            style="?textAppearanceBody2"
+            android:gravity="center"
+            android:textColor="?colorAccent"
+            android:text="@android:string/cancel"
+            android:clickable="true"
+            android:background="?selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+</layout>
