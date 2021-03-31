@@ -10,7 +10,21 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbecb6ce-f5e4-42e5-8201-c888bb6a0284" name="Default Changelist" comment="" />
+    <list default="true" id="bbecb6ce-f5e4-42e5-8201-c888bb6a0284" name="Default Changelist" comment="add base func">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/SharedHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/SharedHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/db/dao/ValueDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/db/dao/ValueDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/di/AppComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/di/AppComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/di/modules/ContextModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/di/modules/ContextModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/net/WebObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/net/WebObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/repo/LocalRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/repo/LocalRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/repo/RemoteRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/repo/RemoteRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/scan/ScanFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/scan/ScanFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/TagsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/TagsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/write/WriteFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/write/WriteFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-ru/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/const.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/const.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +68,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -152,7 +167,19 @@
       <option name="presentableId" value="Default" />
       <updated>1617074462334</updated>
     </task>
+    <task id="LOCAL-00001" summary="add base func">
+      <created>1617185651082</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617185651082</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add base func" />
+    <option name="LAST_COMMIT_MESSAGE" value="add base func" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1617179804323">
@@ -163,6 +190,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="736" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617075541980" />
+    <state x="685" y="354" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1617185722009">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="685" y="354" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1617185722009" />
     <state x="540" y="275" key="AndroidCreateResourceDirectoryDialog" timestamp="1617074694578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -215,6 +246,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="591" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617184366022" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617185716511">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617185716511" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1617179996407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

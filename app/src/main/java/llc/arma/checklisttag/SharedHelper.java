@@ -3,11 +3,6 @@ package llc.arma.checklisttag;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-
-import org.jetbrains.annotations.NotNull;
-
 public class SharedHelper {
 
     private static final String SP_NAME = "SP_NAME";
