@@ -1,0 +1,1 @@
+package llc.arma.checklisttag.ui.tag;import llc.arma.checklisttag.data.Tag;public interface TagActionsListener {    void onTagClicked(Tag tag);}
