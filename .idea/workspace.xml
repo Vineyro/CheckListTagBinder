@@ -9,28 +9,49 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:dev" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbecb6ce-f5e4-42e5-8201-c888bb6a0284" name="Default Changelist" comment="little improve">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_scalars_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/release/app-release.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/release/output-metadata.json" afterDir="false" />
+    <list default="true" id="bbecb6ce-f5e4-42e5-8201-c888bb6a0284" name="Default Changelist" comment="Exceptions proccessing">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_scalars_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/debug/app-debug.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/debug/output-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/release/tagBinder.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_scalars_2_1_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/CheckListTag.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/CheckListTag.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/net/WebApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/net/WebApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/repo/RemoteRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/repo/RemoteRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/login/LoginViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/login/LoginViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/TagsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/TagsFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/TagsViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/TagsViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/main_activity_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/main_activity_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[55381e0a]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -56,7 +77,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,7 +96,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="55381e0a" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-03-31T06:10:31.326Z" />
     <property name="ExportApk.ApkPath" value="C:\Users\Yuri\Documents\CheckListTag\app" />
-    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.BuildVariants" value="debug" />
     <property name="ExportApk.SignV1" value="true" />
     <property name="ExportApk.SignV2" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -217,8 +238,39 @@
       <option name="project" value="LOCAL" />
       <updated>1617332138767</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Exceptions proccessing">
+      <created>1617347089080</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617347089080</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -227,7 +279,8 @@
     <MESSAGE value="add eng locale" />
     <MESSAGE value="new launcher icon" />
     <MESSAGE value="little improve" />
-    <option name="LAST_COMMIT_MESSAGE" value="little improve" />
+    <MESSAGE value="Exceptions proccessing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exceptions proccessing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1617179804323">
@@ -262,22 +315,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617185434691" />
-    <state width="1877" height="467" key="GridCell.Tab.0.bottom" timestamp="1617346654872">
+    <state width="1877" height="467" key="GridCell.Tab.0.bottom" timestamp="1617347090164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="467" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617346654872" />
-    <state width="1877" height="467" key="GridCell.Tab.0.center" timestamp="1617346654872">
+    <state width="1877" height="467" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617347090164" />
+    <state width="1877" height="467" key="GridCell.Tab.0.center" timestamp="1617347090164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="467" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617346654872" />
-    <state width="1877" height="467" key="GridCell.Tab.0.left" timestamp="1617346654872">
+    <state width="1877" height="467" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617347090164" />
+    <state width="1877" height="467" key="GridCell.Tab.0.left" timestamp="1617347090163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="467" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617346654872" />
-    <state width="1877" height="467" key="GridCell.Tab.0.right" timestamp="1617346654872">
+    <state width="1877" height="467" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617347090163" />
+    <state width="1877" height="467" key="GridCell.Tab.0.right" timestamp="1617347090164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="467" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617346654872" />
+    <state width="1877" height="467" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617347090164" />
     <state width="1877" height="591" key="GridCell.Tab.1.bottom" timestamp="1617346528934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -294,14 +347,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="591" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617346528934" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617246422100">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617347818768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617246422100" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617347818768" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1617179996407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1617179996407" />
+    <state x="605" y="308" key="git4idea.merge.GitPullDialog" timestamp="1617348222324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="605" y="308" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617348222324" />
     <state width="618" height="125" key="javadoc.popup.new" timestamp="1617346933699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -323,11 +380,6 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/MainActivity.java</url>
           <line>117</line>
           <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/repo/RemoteRepo.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
