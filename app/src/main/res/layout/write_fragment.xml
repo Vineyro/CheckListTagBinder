@@ -24,7 +24,7 @@
             style="?textAppearanceHeadline6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="AddToSystem"/>
+            android:text="Добавление в систему"/>
 
         <com.airbnb.lottie.LottieAnimationView
             android:layout_margin="32dp"
