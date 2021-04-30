@@ -35,23 +35,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbecb6ce-f5e4-42e5-8201-c888bb6a0284" name="Default Changelist" comment="Exceptions proccessing">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_scalars_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/debug/app-debug.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/debug/output-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/release/tagBinder.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/data/Ble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/data/BleDiffUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/ble/BleActionsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/ble/BleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/ble/BleFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/ble/BleViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/ble_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/ble_item.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_scalars_2_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_3_4_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_3_4_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_3_4_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_3_4_aar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/CheckListTag.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/CheckListTag.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/debug/app-debug.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/debug/output-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/BindingAdapters.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/BindingAdapters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/data/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/data/Tag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/db/model/SmartObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/db/model/SmartObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/net/WebApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/net/WebApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/repo/LocalRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/repo/LocalRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/repo/RemoteRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/repo/RemoteRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/TagsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/TagsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/TagsViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/TagsViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/main_activity_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/main_activity_graph.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[55381e0a]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -103,14 +122,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/keystore.jks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="llc.arma.checklisttag.ui.tag.TagAdapter" />
-      <recent name="llc.arma.checklisttag.ui.tag" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yuri\Documents\CheckListTag\app\src\main\res\layout" />
+      <recent name="C:\Users\Yuri\Documents\CheckListTag\app\src\main\res\drawable-v24" />
+      <recent name="C:\Users\Yuri\Documents\CheckListTag\app\src\main\assets" />
+      <recent name="C:\Users\Yuri\Documents\CheckListTag\app\src\main\res\values" />
+      <recent name="C:\Users\Yuri\Documents\CheckListTag\app\src\main\java\llc\arma\checklisttag\db\entity" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="llc.arma.checklisttag.ui.write" />
@@ -118,12 +140,9 @@
       <recent name="llc.arma.checklisttag.net" />
       <recent name="llc.arma.checklisttag.db.model" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Yuri\Documents\CheckListTag\app\src\main\res\drawable-v24" />
-      <recent name="C:\Users\Yuri\Documents\CheckListTag\app\src\main\res\layout" />
-      <recent name="C:\Users\Yuri\Documents\CheckListTag\app\src\main\assets" />
-      <recent name="C:\Users\Yuri\Documents\CheckListTag\app\src\main\res\values" />
-      <recent name="C:\Users\Yuri\Documents\CheckListTag\app\src\main\java\llc\arma\checklisttag\db\entity" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="llc.arma.checklisttag.ui.tag.TagAdapter" />
+      <recent name="llc.arma.checklisttag.ui.tag" />
     </key>
   </component>
   <component name="RunManager">
@@ -245,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617347089080</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Exceptions proccessing">
+      <created>1617364338262</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617364338262</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,10 +309,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Exceptions proccessing" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1617179804323">
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1619765667702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617179804323" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1619765667702" />
     <state x="736" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1617075541980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -315,54 +341,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617185434691" />
-    <state width="1877" height="467" key="GridCell.Tab.0.bottom" timestamp="1617347090164">
+    <state width="1877" height="475" key="GridCell.Tab.0.bottom" timestamp="1619773956682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="467" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617347090164" />
-    <state width="1877" height="467" key="GridCell.Tab.0.center" timestamp="1617347090164">
+    <state width="1877" height="475" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619773956682" />
+    <state width="1877" height="475" key="GridCell.Tab.0.center" timestamp="1619773956682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="467" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617347090164" />
-    <state width="1877" height="467" key="GridCell.Tab.0.left" timestamp="1617347090163">
+    <state width="1877" height="475" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619773956682" />
+    <state width="1877" height="475" key="GridCell.Tab.0.left" timestamp="1619773956682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="467" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617347090163" />
-    <state width="1877" height="467" key="GridCell.Tab.0.right" timestamp="1617347090164">
+    <state width="1877" height="475" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619773956682" />
+    <state width="1877" height="475" key="GridCell.Tab.0.right" timestamp="1619773956682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="467" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617347090164" />
-    <state width="1877" height="591" key="GridCell.Tab.1.bottom" timestamp="1617346528934">
+    <state width="1877" height="475" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619773956682" />
+    <state width="1877" height="475" key="GridCell.Tab.1.bottom" timestamp="1619773956682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="591" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617346528934" />
-    <state width="1877" height="591" key="GridCell.Tab.1.center" timestamp="1617346528934">
+    <state width="1877" height="475" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619773956682" />
+    <state width="1877" height="475" key="GridCell.Tab.1.center" timestamp="1619773956682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="591" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617346528934" />
-    <state width="1877" height="591" key="GridCell.Tab.1.left" timestamp="1617346528934">
+    <state width="1877" height="475" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619773956682" />
+    <state width="1877" height="475" key="GridCell.Tab.1.left" timestamp="1619773956682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="591" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617346528934" />
-    <state width="1877" height="591" key="GridCell.Tab.1.right" timestamp="1617346528934">
+    <state width="1877" height="475" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619773956682" />
+    <state width="1877" height="475" key="GridCell.Tab.1.right" timestamp="1619773956682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="591" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617346528934" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617347818768">
+    <state width="1877" height="475" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619773956682" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617364342677">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617347818768" />
-    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1617179996407">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617364342677" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1619601966197">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1617179996407" />
-    <state x="605" y="308" key="git4idea.merge.GitPullDialog" timestamp="1617348222324">
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1619601966197" />
+    <state x="605" y="308" key="git4idea.merge.GitPullDialog" timestamp="1618798080447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="605" y="308" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617348222324" />
-    <state width="618" height="125" key="javadoc.popup.new" timestamp="1617346933699">
+    <state x="605" y="308" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618798080447" />
+    <state width="618" height="125" key="javadoc.popup.new" timestamp="1619772357321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="618" height="125" key="javadoc.popup.new/0.0.1920.1040@0.0.1920.1040" timestamp="1617346933699" />
+    <state width="618" height="125" key="javadoc.popup.new/0.0.1920.1040@0.0.1920.1040" timestamp="1619772357321" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617173830848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -377,15 +403,16 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/MainActivity.java</url>
-          <line>117</line>
-          <option name="timeStamp" value="23" />
+          <url>file://$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/TagsViewModel.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="app">
         <watch expression="response.body[0]" />
+        <watch expression="bleArrayList.get(0)" />
       </configuration>
     </watches-manager>
   </component>

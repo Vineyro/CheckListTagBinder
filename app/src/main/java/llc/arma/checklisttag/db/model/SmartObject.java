@@ -13,6 +13,10 @@ public class SmartObject {
     public static final String NFC_MARK_LINKED = "nfcMarkLinked";
     public static final String NFC_MARK = "nfcMark";
 
+    public static final String BLE_MARK_NEW = "bleNew";
+    public static final String BLE_MARK_LINKED = "bleLinked";
+    public static final String BLE_MARK = "ble";
+
     public static final String TAG_ID = "nfcId";
 
     private Integer id;

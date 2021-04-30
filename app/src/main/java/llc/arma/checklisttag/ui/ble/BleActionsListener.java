@@ -1,0 +1,1 @@
+package llc.arma.checklisttag.ui.ble;import llc.arma.checklisttag.data.Ble;public interface BleActionsListener {    void onBleClicked(Ble ble);}
