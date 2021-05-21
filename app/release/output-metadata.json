@@ -5,7 +5,7 @@
     "kind": "Directory"
   },
   "applicationId": "llc.arma.checklisttag",
-  "variantName": "processReleaseResources",
+  "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
