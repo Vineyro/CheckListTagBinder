@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1078435560085",
+    "project_id": "tag-binder",
+    "storage_bucket": "tag-binder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078435560085:android:29417c1ec7e427fd26399c",
+        "android_client_info": {
+          "package_name": "llc.arma.checklisttag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078435560085-reoj28f2vdv3jhj2jrt3tudo4t0p378k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG1smZ0wVhBeaq8ezjwZA-vNtpDyGd_tU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078435560085-reoj28f2vdv3jhj2jrt3tudo4t0p378k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

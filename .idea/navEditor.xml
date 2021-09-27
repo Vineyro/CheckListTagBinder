@@ -8,14 +8,57 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
+                  <entry key="addNfcObjectDialog">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="365" />
+                            <option name="y" value="533" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="bleFragment">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="517" />
-                            <option name="y" value="-6" />
+                            <option name="x" value="603" />
+                            <option name="y" value="333" />
                           </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="initFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-349" />
+                            <option name="y" value="153" />
+                          </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_initFragment_to_loginFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_initFragment_to_scannerFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_initFragment_to_tagsFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
                         </option>
                       </LayoutPositions>
                     </value>
@@ -25,8 +68,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="16" />
-                            <option name="y" value="-18" />
+                            <option name="x" value="-50" />
+                            <option name="y" value="-72" />
                           </Point>
                         </option>
                         <option name="myPositions">
@@ -46,8 +89,20 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="520" />
-                            <option name="y" value="-313" />
+                            <option name="x" value="603" />
+                            <option name="y" value="-242" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="scannerFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-55" />
+                            <option name="y" value="358" />
                           </Point>
                         </option>
                       </LayoutPositions>
@@ -58,12 +113,17 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="247" />
-                            <option name="y" value="-18" />
+                            <option name="x" value="316" />
+                            <option name="y" value="47" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
+                            <entry key="action_tagsFragment_to_addNfcObjectDialog">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_tagsFragment_to_bleFragment">
                               <value>
                                 <LayoutPositions />
@@ -94,8 +154,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="515" />
-                            <option name="y" value="285" />
+                            <option name="x" value="599" />
+                            <option name="y" value="43" />
                           </Point>
                         </option>
                       </LayoutPositions>

@@ -30,14 +30,9 @@ public class Utils {
         return null;
     }
 
-    /**
-     * Получает id os
-     * @param context контекст приложения
-     * @return id os
-     */
     @SuppressLint("HardwareIds")
-    public static String getAndroidId(@NotNull Context context){
-        return Settings.Secure.getString(context.getContentResolver(), Settings.Secure.ANDROID_ID);
+    public static String getAndroidId(){
+        return Settings.Secure.getString(App.getAppComponent().provideContext().getContentResolver(), Settings.Secure.ANDROID_ID);
     }
 
 }

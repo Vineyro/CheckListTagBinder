@@ -1,44 +1,1 @@
-package llc.arma.checklisttag.db.entity;
-
-import androidx.annotation.NonNull;
-import androidx.room.Entity;
-
-
-@Entity(primaryKeys = {"sid", "name"})
-public class Value {
-
-    /**
-     * Sid Object'a к которому принадлежит реестр
-     */
-    @NonNull
-    public String sid = "";
-
-    /**
-     * Имя значения
-     */
-    @NonNull
-    public String name = "";
-
-    /**
-     * Тип значения
-     * 0 - numvalue
-     * 1 - strvalue
-     */
-    public int type;
-
-    /**
-     * Целочисленное значение
-     */
-    public long numvalue;
-
-    /**
-     * Строковое значение
-     */
-    public String strvalue;
-
-    /**
-     * Время создания
-     */
-    public long ts;
-
-}
+package llc.arma.checklisttag.db.entity;import androidx.annotation.NonNull;import androidx.room.Entity;import lombok.Getter;import lombok.Setter;@Getter@Setter@Entity(primaryKeys = {"sid", "name"})public class Value {    @NonNull    private String sid = "";    @NonNull    private String name = "";    /**     * Тип значения     * 0 - numvalue     * 1 - strvalue     */    private int type;    private long numvalue;    private String strvalue;    private long ts;}

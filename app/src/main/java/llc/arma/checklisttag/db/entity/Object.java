@@ -3,36 +3,59 @@ package llc.arma.checklisttag.db.entity;
 import androidx.annotation.NonNull;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
+import androidx.room.TypeConverters;
 
+import java.util.Arrays;
+
+import llc.arma.checklisttag.db.Converters;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 @Entity
+@TypeConverters({Converters.class})
 public class Object {
 
-    public Integer id;
+    public static final String NFC_MARK_NEW = "nfcMarkNew";
+    public static final String NFC_MARK_LINKED = "nfcMarkLinked";
+    public static final String NFC_MARK = "nfcMark";
+
+    public static final String BLE_MARK_NEW = "bleNew";
+    public static final String BLE_MARK_LINKED = "bleLinked";
+    public static final String BLE_MARK = "ble";
+
+    public static final String TAG_ID = "nfcId";
+
+    private Integer id;
 
     @NonNull
     @PrimaryKey()
-    public String sid = "";
-    
-    public String parent;
+    private String sid = "";
 
-    public String type;
+    private String parent;
 
-    public String name;
+    private String type;
 
-    public String tablet;
+    private String name;
 
-    public String channel;
+    private String tablet;
 
-    public int login;
+    private String channel;
 
-    public int sync;
+    private Long login;
 
-    public int show;
+    private int sync;
 
-    public long lastupd;
+    private int show;
 
-    public long deadin;
+    private long lastupd;
 
-    public long ts;
+    private long deadin;
+
+    private long ts;
+
+    private boolean isReportData;
+
 
 }
