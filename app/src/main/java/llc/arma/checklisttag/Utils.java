@@ -1,7 +1,6 @@
 package llc.arma.checklisttag;
 
 import android.annotation.SuppressLint;
-import android.content.Context;
 import android.provider.Settings;
 
 import org.jetbrains.annotations.NotNull;

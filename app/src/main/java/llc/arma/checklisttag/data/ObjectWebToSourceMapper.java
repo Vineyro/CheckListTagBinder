@@ -2,7 +2,6 @@ package llc.arma.checklisttag.data;
 
 import java.util.ArrayList;
 
-import llc.arma.checklisttag.db.entity.Object;
 import llc.arma.checklisttag.db.entity.ObjectEntity;
 import llc.arma.checklisttag.db.model.Smart;
 import llc.arma.checklisttag.net.WebObject;

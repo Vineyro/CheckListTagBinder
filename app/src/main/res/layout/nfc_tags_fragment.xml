@@ -24,7 +24,7 @@
             android:orientation="vertical">
 
             <androidx.recyclerview.widget.RecyclerView
-
+                android:paddingTop="8dp"
                 android:visibility="@{model.pagedList.size() == 0 ? View.GONE : View.VISIBLE, default = visible}"
                 android:id="@+id/tagRecycler"
                 android:layout_width="match_parent"

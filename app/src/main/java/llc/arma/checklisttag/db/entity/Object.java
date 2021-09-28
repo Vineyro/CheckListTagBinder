@@ -5,8 +5,6 @@ import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 import androidx.room.TypeConverters;
 
-import java.util.Arrays;
-
 import llc.arma.checklisttag.db.Converters;
 import lombok.Getter;
 import lombok.Setter;

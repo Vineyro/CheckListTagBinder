@@ -9,10 +9,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import llc.arma.checklisttag.Event;
 import llc.arma.checklisttag.databinding.AddNfcObjectFragmentBinding;
 
 public class AddNfcObjectDialog extends DialogFragment {

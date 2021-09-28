@@ -7,7 +7,6 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
-import llc.arma.checklisttag.db.entity.Object;
 import llc.arma.checklisttag.db.entity.ObjectEntity;
 import llc.arma.checklisttag.db.entity.Value;
 
