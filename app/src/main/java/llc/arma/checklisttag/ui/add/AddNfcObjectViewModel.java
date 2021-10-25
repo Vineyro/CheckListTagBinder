@@ -33,11 +33,12 @@ public class AddNfcObjectViewModel extends ViewModel {
     public void onAddClicked(){
         Executors.newSingleThreadExecutor().execute(() -> {
             if(newObjectName.getValue() != null && newObjectName.getValue().length() > 0) {
-                App.getAppComponent().provideLocalRepo().insert(Tag.createNew(
-                        newObjectName.getValue(),
-                        newObjectDescription.getValue() == null ? "" : newObjectDescription.getValue(),
-                        SharedHelper.getUser().getOrganisation().getId(),
-                        nfcId));
+                App.getAppComponent().provideLocalRepo().insert(
+                        Tag.createNew(
+                                newObjectName.getValue(),
+                                newObjectDescription.getValue() == null ? "" : newObjectDescription.getValue(),
+                                SharedHelper.getUser().getOrganisation().getId(),
+                                nfcId));
                 closeEvent.postValue(new Event(new Bundle()));
             }
         });

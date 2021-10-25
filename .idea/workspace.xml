@@ -38,47 +38,17 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbecb6ce-f5e4-42e5-8201-c888bb6a0284" name="Default Changelist" comment="fix bugs">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bbecb6ce-f5e4-42e5-8201-c888bb6a0284" name="Default Changelist" comment="clean">
+      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/BindingAdapters.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/BindingAdapters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/MainViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/MainViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/data/BleDiffUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/data/BleDiffUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/data/ObjectWebToSourceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/data/ObjectWebToSourceMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/db/AppDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/db/AppDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/db/Converters.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/db/Converters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/db/dao/ObjectDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/db/dao/ObjectDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/db/entity/Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/db/entity/Object.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/db/model/Smart.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/db/model/Smart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/di/modules/DatabaseModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/di/modules/DatabaseModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/net/AuthApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/net/AuthApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/net/SyncApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/net/SyncApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/repo/LocalRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/repo/LocalRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/repo/RemoteRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/repo/RemoteRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/repo/SendWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/repo/SendWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/add/AddNfcObjectDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/add/AddNfcObjectDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/ble/BleAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/ble/BleAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/ble/BleFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/ble/BleFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/ble/BleViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/ble/BleViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/init/InitFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/init/InitFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/login/LoginFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/login/LoginFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/login/LoginViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/login/LoginViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/add/AddNfcObjectViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/add/AddNfcObjectViewModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/scan/ScanFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/scan/ScanFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/scan/ScanViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/scan/ScanViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/TagAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/TagAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/TagPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/TagPager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/TagsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/TagsFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/TagsViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/TagsViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/ble/BleTagFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/ble/BleTagFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/ble/BleTagsViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/ble/BleTagsViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/nfc/NfcTagFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/nfc/NfcTagFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/nfc/NfcTagsViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/tag/nfc/NfcTagsViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/write/WriteFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/write/WriteFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/write/WriteViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/llc/arma/checklisttag/ui/write/WriteViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/nfc_tags_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nfc_tags_fragment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/tags_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/tags_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632739586687</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="clean">
+      <created>1632805937715</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1632805937715</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -365,14 +342,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add base func" />
-    <MESSAGE value="clean" />
     <MESSAGE value="add eng locale" />
     <MESSAGE value="new launcher icon" />
     <MESSAGE value="little improve" />
     <MESSAGE value="Exceptions proccessing" />
     <MESSAGE value="add ble" />
     <MESSAGE value="fix bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bugs" />
+    <MESSAGE value="clean" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
