@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/CheckListTag.iml" filepath="$PROJECT_DIR$/.idea/modules/CheckListTag.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CheckListTag.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CheckListTag.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CheckListTag.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CheckListTag.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CheckListTag.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CheckListTag.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CheckListTag.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CheckListTag.app.unitTest.iml" />
     </modules>
   </component>
 </project>

@@ -1,12 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.dagger:dagger-android:2.35.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/33f2134134d5c21da2dae8f6af79bfbd/jetified-dagger-android-2.35.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/38818b9cce26a9bf745e00d80c777272/transformed/jetified-dagger-android-2.35.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/917fed40fce738f28b1532e1d50c5510/transformed/jetified-dagger-android-2.35.1/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7f7bf07b5aaa0d5e5964343ac2d68df9/transformed/jetified-dagger-android-2.35.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7f7bf07b5aaa0d5e5964343ac2d68df9/transformed/jetified-dagger-android-2.35.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7f7bf07b5aaa0d5e5964343ac2d68df9/transformed/jetified-dagger-android-2.35.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/904b1423753e1d6e933d3a2f34016549/transformed/jetified-dagger-android-2.35.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/904b1423753e1d6e933d3a2f34016549/transformed/jetified-dagger-android-2.35.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger-android/2.35.1/fc1b43264657e94e5eb7e74fba87d21e30985ae/dagger-android-2.35.1-javadoc.jar!/" />

@@ -2,6 +2,7 @@ package llc.arma.checklisttag.ui.init;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +13,8 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.Navigation;
+
+import java.util.ArrayList;
 
 import llc.arma.checklisttag.R;
 import llc.arma.checklisttag.databinding.InitFragmentBinding;
@@ -64,12 +67,25 @@ public class InitFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        if(requireActivity().checkSelfPermission(Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED) {
+
+        ArrayList<String> permissions = new ArrayList<>();
+
+        permissions.add(Manifest.permission.CAMERA);
+        permissions.add(Manifest.permission.ACCESS_FINE_LOCATION);
+
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU){
+            permissions.add(Manifest.permission.POST_NOTIFICATIONS);
+            permissions.add(Manifest.permission.BLUETOOTH_SCAN);
+            permissions.add(Manifest.permission.BLUETOOTH_CONNECT);
+        }
+
+        if(requireActivity().checkSelfPermission(Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED &&
+                requireActivity().checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED &&
+                requireActivity().checkSelfPermission(Manifest.permission.BLUETOOTH_SCAN) == PackageManager.PERMISSION_GRANTED &&
+                requireActivity().checkSelfPermission(Manifest.permission.BLUETOOTH_CONNECT) == PackageManager.PERMISSION_GRANTED) {
             viewModel.start();
         }else {
-            requireActivity().requestPermissions(new String[]{
-                    Manifest.permission.CAMERA
-            }, 56);
+            requireActivity().requestPermissions(permissions.toArray(new String[0]), 56);
         }
     }
 }
