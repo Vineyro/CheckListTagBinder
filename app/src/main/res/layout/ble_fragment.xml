@@ -39,39 +39,45 @@
 
         </LinearLayout>
 
-        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-            android:id="@+id/pullToRefresh"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-            <LinearLayout
+            <androidx.recyclerview.widget.RecyclerView
+                android:visibility="@{model.bleList.size() == 0 ? View.GONE : View.VISIBLE, default = gone}"
+                android:id="@+id/bleRecycler"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:itemCount="10"
+                tools:listitem="@layout/tag_item" />
+
+            <LinearLayout
+                android:visibility="@{model.bleList.size() > 0 ? View.GONE : View.VISIBLE, default = visible}"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:orientation="vertical">
 
-                <androidx.recyclerview.widget.RecyclerView
-                    android:visibility="@{model.bleList.size() == 0 ? View.GONE : View.VISIBLE, default = gone}"
-                    android:id="@+id/bleRecycler"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                    tools:itemCount="10"
-                    tools:listitem="@layout/tag_item" />
+                <com.google.android.material.progressindicator.CircularProgressIndicator
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true"/>
 
                 <TextView
                     style="?textAppearanceSubtitle1"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:visibility="@{model.bleList.size() > 0 ? View.GONE : View.VISIBLE, default = visible}"
                     android:text="@string/empty_state_title"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_marginTop="24dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:background="?colorSurface"/>
 
             </LinearLayout>
 
-        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        </LinearLayout>
 
     </LinearLayout>
 

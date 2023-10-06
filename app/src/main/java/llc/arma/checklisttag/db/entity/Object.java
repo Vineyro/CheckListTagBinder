@@ -23,6 +23,10 @@ public class Object {
     public static final String BLE_MARK_LINKED = "bleLinked";
     public static final String BLE_MARK = "ble";
 
+    public static final String BLE_THERMO_MARK_NEW = "bleThermoNew";
+    public static final String BLE_THERMO_MARK_LINKED = "bleThermoLinked";
+    public static final String BLE_THERMO_MARK = "bleThermo";
+
     public static final String TAG_ID = "nfcId";
 
     private Integer id;
